@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(30, 30, 30);
+}
+
+h2{
+    color: rgb(230, 230, 230);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#Calculator{
+    height: 486px;
+    width: 280px;
+    background-color: rgb(15, 15, 15);
+    border: 1px solid rgb(60, 60, 60);
+    border-radius: 14px;
+    position: fixed;
+    top: 124px;
+    left: 490px;
+    right: 490px;
+    padding: 14px 14px 14px 14px;
+}
+
+#Question{
+    height: 55px;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 999px;
+    background-color: rgb(60, 60, 60);
+    width: 270px;
+    color: rgb(120, 170, 255);
+    font-size: 22px;
+    text-align: center;
+}
+
+button{
+    height: 65px;
+    width: 65px;
+    margin-top: 3px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: rgb(30, 30, 30);
+    color: rgb(235, 235, 235);
+}
+
+#Answer{
+    height: 55px;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 999px;
+    background-color: rgb(60, 60, 60);
+    width: 270px;
+    margin-top: 10px;
+    color: rgb(140, 190, 255);
+    font-size: 30px;
+    text-align: center;
+    position: fixed;
+}
+
+button:active{
+    transform: scale(0.9);
+}   
+
+footer{
+    color: red;
+}
+
+#bombT{
+    color: red;
+}
+
+#equals{
+    background-color: rgb(194, 161, 29);
+    color: black;
+}
